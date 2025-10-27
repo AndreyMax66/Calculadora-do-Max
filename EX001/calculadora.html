@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <h1> CALCULADORA DO MAX</h1>
+    <p> Para vizualizar os seus calculos, aperte F12 e clique em Console</p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p>O que achou da Calculadora do Max? comente sobre sua experiência.<br> utilizaremos seu feedback para melhorarmos nosso site e torná-lo cada vez melhor para você. </p>
+    <script>
+
+        const nome = prompt("Digite seu nome")
+        const numero_1 = Number(prompt("Digite um número para a soma"))
+        const numero_2 = Number(prompt("Digite outro número"))
+        const resultado = numero_1 + numero_2
+        console.log(`Olá ${nome}, bem vindo a calculadora do Andrey Max, a soma dos números que você solicitou é igual a ${resultado}` )
+        
+        
+        const numero_3 = Number(prompt("Digite um número para a subtração"))
+        const numero_4 = Number(prompt("Digite outro número"))
+        const resultado_subtraçao = numero_3 - numero_4
+        console.log(` a subtração dos números que você solicitou é igual a ${resultado_subtraçao}` )
+
+        
+        const numero_5 = Number(prompt("Digite um número para multiplicação"))
+        const numero_6 = Number(prompt("Digite outro número"))
+        const resultado_multiplicaçao = numero_5 * numero_6
+        console.log(` a multiplicação dos números que você solicitou é igual a ${resultado_multiplicaçao}` )
+
+        
+        const numero_7 = Number(prompt("Digite um número para divisão"))
+        const numero_8 = Number(prompt("Digite outro número"))
+        const resultado_divisao = numero_7 / numero_8
+        console.log(` a divisão dos números que você solicitou é igual a ${resultado_divisao}` )
+    </script>
+</body>
+</html>
